@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metaverse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/meta-logo.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="content">
+            <img src="assets/gem-regular.svg" alt="gem">
+            <div class="line"></div>
+            <hr>
+            <div class="intro">
+            <h1>Metaverse</h1>
+            <p>
+                Inovacija, kuri perjormos mūsų <a href="https://www.google.com" target="_blank">kontaktavimo</a> būdus pasaulyje suteikdama <a href="https://www.google.lt" target="_blank">galimybę</a> kiekvienam.
+            </p>   
+        </div>
+        <hr>
+            <div class="line"></div>
+        </div>
+        <nav>
+            <button onclick="showTab('intro')">intro</button>
+            <button onclick="showTab('work')">work</button>
+            <button onclick="showTab('about')">about</button>
+            <button onclick="showTab('contact')">contact</button>
+        </nav>
+    </header>
+    <main>
+        <article id="intro" class="tab">
+            <h2 class="major">įžanga</h2>
+            <video src="assets/tab-1.mp4" muted autoplay loop></video>
+            <p>3D arba virtualios realybės pasaulis, kuriame galima žaisti, pirkti, parduoti, keliauti ir kurti.
+            <br><br> 
+            maiores eveniet ut veritatis. Laudantium mollitia
+            aspernatur at. Earum commodi aliquam illo consequatur quis porro aliquid, amet ad magni, deserunt, exercitationem qui perspiciatis! Ipsa incidunt fuga facere vitae accusantium ratione maiores dolore inventore ad mollitia vel suscipit dolores, iste modi ipsam obcaecati molestiae consectetur et sequi nemo voluptatibus explicabo delectus? Rerum, accusantium sed aperiam voluptatem consequuntur sunt consectetur at dolores, aut assumenda alias. Incidunt, voluptatum?</p>
+            <img class="close" src="assets/xmark-solid.svg" alt="close" onclick="closeTab(event)">
+        </article>
+        <article id="work" class="tab">
+            <h2 class="major">darbas</h2>
+            <img class="cover"src="assets/tab-2.jpg" alt="cover">
+            <p>Skaitmeninis „Metaverse“ pasaulis suteikia verslams galimybę bendrauti su vartotojais įdomiau ir efektyviau.
+            <br><br> 
+            Čia reklama yra kur kas daugiau, nei skaitmeninės skelbimų lentos, į kurias pavirto socialiniai tinklai.Neribojama fizikos dėsnių ir didelių kaštų, „Metaverse“ jau tampa vieta prekių ženklų renginiams, vakarėliams, konkursams ir koncertams. Mados industrijos milžinas „Gucci“ neseniai pristatė tik „Metaverse“ prieinamą rūbų kolekciją, taip supažindindamas jaunesnę auditoriją su savo prekių ženklu.</p>
+            <img class="close" src="assets/xmark-solid.svg" alt="close" onclick="closeTab(event)">
+        </article>
+        <article id="about" class="tab">
+            <h2 class="major">Apie</h2>
+            <img class="cover"src="assets/tab-3.jpg" alt="">
+            <p>Skaitmeniniai drabužiai, paveikslai, automobiliai ir net nekilnojamas turtas – tai tik keletas prekių, kurias žmonės už tikrus pinigus jau gali nusipirkti „Metaverse“. Jų unikali nuosavybė yra įrodoma „blockchain“ sistemos pagalba.
+            <br><br> 
+            Jau šiandien galite rasti skaitmeninio nekilnojamo turto, parduodamo už milijonus dolerių. Ir žmonės jį perka! Į skaitmeninį nekilnojamąjį turtą investavusios įmonės prilygina šiuos skaitmeninius sklypus nekilnojamojo turto pirkimui Niujorke prieš šimtus metų – tai unikali galimybė įsigyti vietos pasauliuose, kuriuose ateityje bus labai daug lankytojų, todėl iš anksto paruošę ten vietą savo parduotuvei, kavinei ar kitokiam verslui, galite laimėti.</p>
+            <img class="close" src="assets/xmark-solid.svg" alt="close" onclick="closeTab(event)">
+        </article>
+        <article id="contact" class="tab">
+            <h2 class="major">Kontaktai</h2>
+            <img class="cover" src="assets/tab-4.jpg" alt="">
+            <p>Juokaujama, kad per aukso karštinę daugiausiai uždirbo ne auksakasiai, o kastuvų pardavėjai. Panašią tendenciją galime matyti ir kai kalbame apie „Metaverse“.
+            <br><br> 
+            Kuriasi vis daugiau „Metaverse“ dizaino agentūrų, jau yra teisininkų, ekonomistų ir konsultantų, kurie specializuojasi šiame naujame virtualiame pasaulyje.Deja, bet teisininkų paslaugų reikia jau dabar, nes „Metaverse“ platformoje gausų azartinių žaidimų, apgavysčių, mokesčių vengimo ar net seksualinio priekabiavimo. Daugelis šių problemų kompiuterinių žaidimų rinkoje egzistuoja jau dešimtis metų. Tačiau platesnis susidomėjimas virtualiu pasauliu atskleis jo trūkumus ir sukurs profesijas sprendimų ieškojimui.</p>
+            <img class="close" src="assets/xmark-solid.svg" alt="close" onclick="closeTab(event)">
+        </article>
+    </main>
+    <script src="main.js"></script>
+    
+</body>
+</html>
+
